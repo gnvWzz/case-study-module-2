@@ -101,5 +101,6 @@ public class InvoiceManagementMenu {
             sc.nextLine();
         } while (choice != 0);
         invoiceManagement.addInvoice(invoice);
+        System.out.println(invoice);
     }
 }
